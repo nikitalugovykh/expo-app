@@ -4,7 +4,7 @@ import Page from '../components/Page';
 
 const WORDS = ['LOL', 'KEK', 'CHEBUREK']
 
-export default function TabTwoScreen() {
+export default function TabThreeScreen() {
 
   const translateX = useSharedValue(0)
 
@@ -42,7 +42,7 @@ export default function TabTwoScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
 
   },
 

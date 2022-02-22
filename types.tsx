@@ -29,6 +29,9 @@ export type RootTabParamList = {
   TabTwo: undefined;
   TabThree: undefined;
   TabFour: undefined;
+  TabFive: undefined;
+  TabSix: undefined;
+  TabSeven: undefined;
 };
 
 export type RootTabScreenProps<Screen extends keyof RootTabParamList> = CompositeScreenProps<

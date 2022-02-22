@@ -68,7 +68,8 @@ const Page: FC<Props> = ({ title, index, translateX }) => {
 
 const styles = StyleSheet.create({
     pageContainer: {
-        height,
+        // height,
+        flex: 1,
         width,
         justifyContent: 'center',
         alignItems: 'center',
